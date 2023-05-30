@@ -13,7 +13,7 @@ jobs:
     needs: get-config
     uses: Azure/mlops-templates/.github/workflows/tf-gha-install-terraform.yml@main
     with:
-      TFAction: 'destroy'
+      TFAction: 'apply'
       dply_environment: ${{ needs.set-env-branch.outputs.config-file }} 
       location: ${{ needs.get-config.outputs.location }}
       namespace: ${{ needs.get-config.outputs.namespace }}
