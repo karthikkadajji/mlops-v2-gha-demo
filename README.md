@@ -1,3 +1,1 @@
-# Azure MLOps (v2) solution accelerator
-
-[Main README file](https://github.com/Azure/mlops-v2/blob/main/README.md)
+Adding MLops solution using Azure. Taken the template from Azure opensource sample guide
