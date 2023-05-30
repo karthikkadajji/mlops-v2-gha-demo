@@ -26,7 +26,7 @@ variables:
   resource_group: rg-$(namespace)-$(postfix)$(environment)
   aml_workspace: mlw-$(namespace)-$(postfix)$(environment)
   application_insights: mlw-$(namespace)-$(postfix)$(environment)
-  key_vault: karthik-$(namespace)-$(postfix)$(environment)
+  key_vault: karthik-sse-$(postfix)$(environment)
   container_registry: cr$(namespace)$(postfix)$(environment)
   storage_account: st$(namespace)$(postfix)$(environment)
 
